@@ -1,0 +1,36 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: var(--border-radius);
+    margin-bottom: 15px;
+}
+
+.navLeft{
+    
+}
+.title{
+    font-weight: 500;
+}
+
+.subTitle{
+    color: var(--gray-dark)
+}
+.subTitle span{
+    color: var(--primary-color)
+}
+
+
+.navRight{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.inputSearch{
+    width: 240px;
+    border: 1px solid var(--gray-500);
+    padding: 16px;
+    border-radius: var(--border-radius);
+}
